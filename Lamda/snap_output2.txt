@@ -1,0 +1,30 @@
+{
+  "Snapshots": [
+    {
+      "Description": "Linux_snapshot",
+      "Encrypted": false,
+      "OwnerId": "316958124144",
+      "Progress": "100%",
+      "SnapshotId": "snap-0ca84941825201912",
+      "StartTime": "2024-02-03 08:15:54.737000+00:00",
+      "State": "completed",
+      "VolumeId": "vol-0bcc9c3b63c473023",
+      "VolumeSize": 8,
+      "StorageTier": "standard"
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "f9b0a4ec-76d9-4abc-ad3b-b06636cbdf57",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "f9b0a4ec-76d9-4abc-ad3b-b06636cbdf57",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "content-type": "text/xml;charset=UTF-8",
+      "content-length": "754",
+      "date": "Sat, 03 Feb 2024 08:23:34 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}

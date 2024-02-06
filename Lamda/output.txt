@@ -1,0 +1,299 @@
+{
+  "Reservations": [
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-03f4878755434977f",
+          "InstanceId": "i-074b3867e9092eb3f",
+          "InstanceType": "t2.large",
+          "KeyName": "goku",
+          "LaunchTime": "2024-01-19 16:56:00+00:00",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "ap-south-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-172-31-12-54.ap-south-1.compute.internal",
+          "PrivateIpAddress": "172.31.12.54",
+          "ProductCodes": [],
+          "PublicDnsName": "",
+          "State": {
+            "Code": 80,
+            "Name": "stopped"
+          },
+          "StateTransitionReason": "User initiated (2024-01-19 18:05:55 GMT)",
+          "SubnetId": "subnet-0c0cb09e9df5e9cc8",
+          "VpcId": "vpc-07a7284f7241c3741",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/sda1",
+              "Ebs": {
+                "AttachTime": "2024-01-11 10:55:41+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-018c62b572dd0b33b"
+              }
+            }
+          ],
+          "ClientToken": "cf55bb3b-4463-4f45-a932-fcc4dec44a9c",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "Attachment": {
+                "AttachTime": "2024-01-11 10:55:40+00:00",
+                "AttachmentId": "eni-attach-0e9291bb1ed8a62fc",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "launch-wizard-9",
+                  "GroupId": "sg-01295f101628f8b7e"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "0a:33:88:e1:64:cb",
+              "NetworkInterfaceId": "eni-0a86a07344da3f7d6",
+              "OwnerId": "316958124144",
+              "PrivateDnsName": "ip-172-31-12-54.ap-south-1.compute.internal",
+              "PrivateIpAddress": "172.31.12.54",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-172-31-12-54.ap-south-1.compute.internal",
+                  "PrivateIpAddress": "172.31.12.54"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0c0cb09e9df5e9cc8",
+              "VpcId": "vpc-07a7284f7241c3741",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/sda1",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "launch-wizard-9",
+              "GroupId": "sg-01295f101628f8b7e"
+            }
+          ],
+          "SourceDestCheck": true,
+          "StateReason": {
+            "Code": "Client.UserInitiatedShutdown",
+            "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "Jenkins"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 2,
+            "ThreadsPerCore": 1
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-01-11 10:55:40+00:00",
+          "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": true,
+            "EnableResourceNameDnsAAAARecord": false
+          },
+          "MaintenanceOptions": {
+            "AutoRecovery": "default"
+          },
+          "CurrentInstanceBootMode": "legacy-bios"
+        }
+      ],
+      "OwnerId": "316958124144",
+      "ReservationId": "r-0f56d5a5d42838e73"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-03f4878755434977f",
+          "InstanceId": "i-0d279fbb163c3b996",
+          "InstanceType": "t2.micro",
+          "KeyName": "goku",
+          "LaunchTime": "2024-02-01 07:18:23+00:00",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "ap-south-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-172-31-11-183.ap-south-1.compute.internal",
+          "PrivateIpAddress": "172.31.11.183",
+          "ProductCodes": [],
+          "PublicDnsName": "",
+          "State": {
+            "Code": 80,
+            "Name": "stopped"
+          },
+          "StateTransitionReason": "User initiated (2024-02-01 09:33:47 GMT)",
+          "SubnetId": "subnet-0c0cb09e9df5e9cc8",
+          "VpcId": "vpc-07a7284f7241c3741",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/sda1",
+              "Ebs": {
+                "AttachTime": "2024-02-01 07:18:24+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0bcc9c3b63c473023"
+              }
+            }
+          ],
+          "ClientToken": "19db8462-d6fd-4b58-979a-51d37edf6d08",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [
+            {
+              "Attachment": {
+                "AttachTime": "2024-02-01 07:18:23+00:00",
+                "AttachmentId": "eni-attach-04acc35e35a1eacd5",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "launch-wizard-10",
+                  "GroupId": "sg-006a68598ecd2697a"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "0a:2c:9f:df:c1:41",
+              "NetworkInterfaceId": "eni-0776d4f2d87ffd663",
+              "OwnerId": "316958124144",
+              "PrivateDnsName": "ip-172-31-11-183.ap-south-1.compute.internal",
+              "PrivateIpAddress": "172.31.11.183",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-172-31-11-183.ap-south-1.compute.internal",
+                  "PrivateIpAddress": "172.31.11.183"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0c0cb09e9df5e9cc8",
+              "VpcId": "vpc-07a7284f7241c3741",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/sda1",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "launch-wizard-10",
+              "GroupId": "sg-006a68598ecd2697a"
+            }
+          ],
+          "SourceDestCheck": true,
+          "StateReason": {
+            "Code": "Client.UserInitiatedShutdown",
+            "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "Linux-machin"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 1
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-02-01 07:18:23+00:00",
+          "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": true,
+            "EnableResourceNameDnsAAAARecord": false
+          },
+          "MaintenanceOptions": {
+            "AutoRecovery": "default"
+          },
+          "CurrentInstanceBootMode": "legacy-bios"
+        }
+      ],
+      "OwnerId": "316958124144",
+      "ReservationId": "r-06c873004cef591ea"
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "71b149c2-9f5f-40df-acbd-5c8333e37daa",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "71b149c2-9f5f-40df-acbd-5c8333e37daa",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "date": "Sat, 03 Feb 2024 08:00:10 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}
